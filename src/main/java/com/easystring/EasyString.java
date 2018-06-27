@@ -8,9 +8,6 @@ public class EasyString {
     static List<String> list=new ArrayList<String>();
 
 
-    public static void main(String []args){
-       System.out.println(isValidEmail("siva@gmail.com"));
-    }
 
     public static List<String> permutation(String str) {
         return permutation("", str);
