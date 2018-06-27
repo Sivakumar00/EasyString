@@ -18,8 +18,11 @@ dependencies {
 	        implementation 'com.github.Sivakumar00:EasyString:EasyString-1.0'
 	}
 ```
-## Method Calling
+## Method Calling - permutation of string
 ```
 EasyString.permutation(<String>); //returns List<String> object
 ```
-
+## Method Calling - Validation of Email
+```
+EasyString.isValidEmail(<string>); //returns boolean
+```
